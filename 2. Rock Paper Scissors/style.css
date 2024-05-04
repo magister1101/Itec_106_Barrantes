@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.container-in {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center {
+
+    background: rgb(215, 226, 255);
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.title {
+    font-size: 350%;
+}
+
+.hands {
+    width: 100px;
+}
+
+.buttons button {
+    border: none;
+    background-color: transparent;
+}
+
+.buttons button:hover {
+    border: none;
+    background-color: transparent;
+}
+
+.plays {
+    text-align: left;
+    width: 300px;
+    margin: auto;
+}

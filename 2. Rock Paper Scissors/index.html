@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-in">
+        <div class="center">
+            <h1 class="title">Rock Paper Scissors</h1>
+            <div class="scoreBoard">
+                <h1>Player: <span id="playerScore">0</span> | Computer: <span id="computerScore">0</span></h1>
+            </div>
+            <div class="plays">
+                <H1>Computer: <span id="computerValue"></span></H1>
+                <h1>Player: <span id="playerValue"></span></h1>
+            </div>
+            <div class="buttons">
+                <button onclick="handToPlay(0)"><img src="rock.png" alt="" class="hands"></button>
+                <button onclick="handToPlay(1)"><img src="paper.png" alt="" class="hands"></button>
+                <button onclick="handToPlay(2)"><img src="scissor.png" alt="" class="hands"></button>
+            </div>
+            <h1 id="outcomes">Are you ready?</h1>
+            <script src="script.js"></script>
+        </div>
+    </div>
+</body>
+</html>
